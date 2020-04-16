@@ -9,7 +9,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 
 public class Kujund extends Canvas {
-    static int W = 700;
+    static int W = 1200;
     static int H = 700;
 
 //    public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Kujund extends Canvas {
         g.setFont(font);
         g.drawString("R", 470, 340);
         g2.setStroke(new BasicStroke(4));
-        g.drawLine(W / 2, H / 2, 600, H / 2);
+        g.drawLine(350, 350, 600, 350);
         g.setColor(Color.RED);
         g.drawRect(100, 100, 500, 500);
         g.setColor(Color.BLUE);

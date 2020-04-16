@@ -7,6 +7,7 @@ public class Main {
 
         Kujund.setup();
         YL1.input();
+        Kujund2.setup();
         YL1.vastused();
 
         System.out.printf("%nÜlesanne 2 %n%n");
