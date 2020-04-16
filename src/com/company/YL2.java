@@ -17,10 +17,7 @@ public class YL2 {
                 palkadeArv = 10;
             }
         }
-        else{
-            palkadeArv = 10;
-        }
-
+        else{ palkadeArv = 10; }
 
         System.out.println("Sisesta palk, millest väiksematele rakendub palgatõus: ");
         input = new Scanner(System.in);
@@ -30,9 +27,7 @@ public class YL2 {
                 palgaPiir = 1000;
             }
         }
-        else{
-            palgaPiir = 1000;
-        }
+        else{ palgaPiir = 1000; }
 
         System.out.println("Sisesta palgatõusu protsent: ");
         input = new Scanner(System.in);
@@ -42,9 +37,7 @@ public class YL2 {
                 palgat6us = 1.05;
             }
         }
-        else{
-            palgat6us = 1.05;
-        }
+        else{ palgat6us = 1.05; }
     }
 
     static void valmistaPalgaMassiiv(){
@@ -65,7 +58,6 @@ public class YL2 {
     }
 
     public static void vastused() {
-
         valmistaPalgaMassiiv();
         int[] vanadPalgad = palgad.clone();
         int palgat6usudeArv=0;
